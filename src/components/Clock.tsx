@@ -12,7 +12,7 @@ export const Clock = () => {
   }, []);
 
   const formatTime = (date: Date) => {
-    return date.toLocaleTimeString('id-ID', {
+    return date.toLocaleTimeString('en-EN', {
       hour: '2-digit',
       minute: '2-digit',
       second: '2-digit',
@@ -21,7 +21,7 @@ export const Clock = () => {
   };
 
   const formatDate = (date: Date) => {
-    return date.toLocaleDateString('id-ID', {
+    return date.toLocaleDateString('en-EN', {
       weekday: 'long',
       year: 'numeric',
       month: 'long',

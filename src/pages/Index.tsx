@@ -19,7 +19,7 @@ const Index = () => {
       {/* Main content */}
       <div className="relative z-10 min-h-screen p-8">
         {/* Top left: Clock and Date */}
-        <div className="absolute top-8 left-8">
+        <div className="absolute top-24 left-20">
           <Clock />
         </div>
         

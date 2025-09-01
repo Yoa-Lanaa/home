@@ -1,8 +1,8 @@
 import { ShortcutCard } from './ShortcutCard';
-import googleSheetsIcon from '@/assets/google-sheets-icon.png';
-import googleDocsIcon from '@/assets/google-docs-icon.png';
-import googleSlidesIcon from '@/assets/google-slides-icon.png';
-import googleDriveIcon from '@/assets/google-drive-icon.png';
+import googleSheetsIcon from '@/assets/google-sheets_2991114.png';
+import googleDocsIcon from '@/assets/google-docs_2991108.png';
+import googleSlidesIcon from '@/assets/google_2991117.png';
+import googleDriveIcon from '@/assets/google-drive_2991247.png';
 
 const shortcuts = [
   {
