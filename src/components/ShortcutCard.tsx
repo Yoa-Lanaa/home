@@ -27,7 +27,7 @@ export const ShortcutCard = ({ icon, url, className }: ShortcutCardProps) => {
         className
       )}
     >
-      <div className="w-12 h-12 group-hover:scale-110 transition-transform duration-300">
+      <div className="w-16 h-16 group-hover:scale-110 transition-transform duration-300">
         <img 
           src={icon} 
           alt="App icon" 

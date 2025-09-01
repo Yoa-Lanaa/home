@@ -31,7 +31,7 @@ export const ShortcutGrid = () => {
           key={index}
           icon={shortcut.icon}
           url={shortcut.url}
-          className="w-16 h-16"
+          className="w-24 h-24"
         />
       ))}
     </div>
