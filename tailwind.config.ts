@@ -59,7 +59,8 @@ export default {
 			},
 			fontFamily: {
 				primary: ['var(--font-primary)'],
-				inter: ['Inter', 'system-ui', 'sans-serif']
+				inter: ['Inter', 'system-ui', 'sans-serif'],
+				tomato: ['Tomato Grotesk', 'system-ui', 'sans-serif']
 			},
 			backgroundImage: {
 				'gradient-gold': 'var(--gradient-gold)',

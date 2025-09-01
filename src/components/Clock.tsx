@@ -30,11 +30,11 @@ export const Clock = () => {
   };
 
   return (
-    <div className="text-right">
-      <div className="text-6xl font-bold font-inter text-primary mb-2 tracking-tight">
+    <div className="text-left">
+      <div className="text-8xl font-bold font-tomato text-primary mb-2 tracking-tight">
         {formatTime(time)}
       </div>
-      <div className="text-xl font-medium text-muted-foreground">
+      <div className="text-2xl font-medium font-tomato text-muted-foreground">
         {formatDate(time)}
       </div>
     </div>

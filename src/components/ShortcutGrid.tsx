@@ -1,24 +1,24 @@
 import { ShortcutCard } from './ShortcutCard';
+import googleSheetsIcon from '@/assets/google-sheets-icon.png';
+import googleDocsIcon from '@/assets/google-docs-icon.png';
+import googleSlidesIcon from '@/assets/google-slides-icon.png';
+import googleDriveIcon from '@/assets/google-drive-icon.png';
 
 const shortcuts = [
   {
-    title: 'Google Sheets',
-    icon: '📊',
+    icon: googleSheetsIcon,
     url: 'https://sheets.google.com'
   },
   {
-    title: 'Google Docs',
-    icon: '📄',
+    icon: googleDocsIcon,
     url: 'https://docs.google.com'
   },
   {
-    title: 'Google Slides',
-    icon: '📋',
+    icon: googleSlidesIcon,
     url: 'https://slides.google.com'
   },
   {
-    title: 'Google Drive',
-    icon: '💾',
+    icon: googleDriveIcon,
     url: 'https://drive.google.com'
   }
 ];
@@ -28,11 +28,10 @@ export const ShortcutGrid = () => {
     <div className="flex flex-col space-y-4">
       {shortcuts.map((shortcut, index) => (
         <ShortcutCard
-          key={shortcut.title}
-          title={shortcut.title}
+          key={index}
           icon={shortcut.icon}
           url={shortcut.url}
-          className="w-48 h-24"
+          className="w-16 h-16"
         />
       ))}
     </div>
